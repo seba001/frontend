@@ -1,0 +1,21 @@
+.container{
+    background-color: #D6D6D6;
+    border-bottom: 1px solid #c4c4c4;
+    min-height: 16rem;
+}
+
+.row{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.botones{
+    display: inline-flex;
+}

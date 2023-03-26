@@ -1,0 +1,38 @@
+.container{
+    background-color: #D6D6D6;
+    border-bottom: 1px solid #c4c4c4;
+    min-height: 16rem;
+}
+
+.row{
+align-items: center;
+text-align: center;
+}
+
+.img-fluid{
+    margin-bottom: 1rem;
+}
+
+
+.elemento{
+    padding-top: 1rem;
+
+}
+
+#nombre{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#puesto{
+    font-size: 1.2rem;
+}
+
+#sobreMi{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#acercaDe{
+    font-size: 1.2rem;
+}

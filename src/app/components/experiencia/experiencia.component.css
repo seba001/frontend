@@ -1,0 +1,35 @@
+.container{
+    background-color: #D6D6D6;
+    border-bottom: 1px solid #c4c4c4;
+    min-height: 16rem;
+}
+
+.row{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.nombre{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.descripcion{
+    font-size: 1.2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.empresa, .periodo{
+    display: inline;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    font-weight: bold;
+}

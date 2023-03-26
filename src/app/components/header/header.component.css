@@ -1,0 +1,33 @@
+.container{
+    background-color: #3a226c;
+}
+
+.contenedorLogo{
+    margin: auto;
+    text-align: left;
+}
+
+.logo{
+    width:9rem;
+}
+
+.contenedorBoton{
+    margin: auto;
+    text-align: center;
+}
+
+.contenedorRedes{
+    margin: auto;
+    text-align: right;
+}
+
+.instagram, .linkedin {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 0.5rem;
+}
+
+.contenedorBanner{
+    padding-left: 0;
+    padding-right: 0;
+}

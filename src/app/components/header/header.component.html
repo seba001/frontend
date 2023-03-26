@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+    
+         <div class="contenedorLogo col-4">
+            <img class="logo" src="../../../assets/ArProg_icono.png" alt="Logo Argentina Programa">
+         </div>
+
+         <div class="contenedorBoton col-4">
+            <a href="/login" class="btn btn-success" role="button" (click)="login()" *ngIf="!isLogged">Iniciar sesión</a>
+            <a href="/login" class="btn btn-danger" role="button" (click)="onLogOut()" *ngIf="isLogged">Cerrar sesión</a>
+        </div>
+            
+         <div class="contenedorRedes col-4">
+            <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="../../../assets/instagram_icono.png"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img class="linkedin" src="../../../assets/linkedin_icono.png"></a>
+        </div> 
+
+        <div class="contenedorBanner col-12">
+            <img src="../../../assets/banner.png" class="img-fluid">
+        </div>
+
+    </div>
+</div>

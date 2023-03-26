@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row elemento">
+
+        <div class="nuevoAcercaDe">
+            <button type="button" class="btn btn-primary" routerLink="editacercade/1" *ngIf="isLogged"><i class="bi bi-pencil"></i></button>
+        </div>
+
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+            <img src={{persona.imagen}} class="img-fluid fotoPerfil">
+        </div>
+
+        <div class="col-8 col-sm-8 col-md-4 col-lg-5 elemento">
+            <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
+            <p id="puesto">Full Stack Developer Jr.</p>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 elemento">
+            <p id="sobreMi">Sobre mí:</p>
+            <p id="acercaDe">{{persona.descripcion}}</p>
+        </div>
+
+    </div>
+</div>
